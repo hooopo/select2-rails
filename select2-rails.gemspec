@@ -2,7 +2,7 @@
 require File.expand_path("../lib/select2-rails/version", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "select2-rails"
+  s.name        = "select2-rails-2020"
   s.version     = Select2::Rails::VERSION
   s.authors     = ["Rogerio Medeiros", "Pedro Nascimento"]
   s.email       = ["argerim@gmail.com", "pnascimento@gmail.com"]
@@ -15,7 +15,6 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_development_dependency "thor", "~> 0.14"
   s.add_development_dependency "bundler", "~> 1.0"
   s.add_development_dependency "rails", ">= 3.0"
   s.add_development_dependency "httpclient", "~> 2.2"
